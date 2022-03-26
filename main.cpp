@@ -13,9 +13,9 @@ void delay(int t) {
 void oddnumber(int x) {
 	for (int i = 1; i <= x; i++) {
 		if (i % 2 != 0) {
+			delay(1000);//delay 1 second
 			cout << "pesanan No." << i << " (Oddnumber)" << endl;
 			cout << "waktu delay 1 second" << endl << endl;
-			delay(1000);//delay 1 second
 		}
 	}
 }
@@ -24,9 +24,9 @@ void oddnumber(int x) {
 void evennumber(int y) {
 	for (int i = 1; i <= y; i++) {
 		if (i % 2 == 0) {
+			delay(2500);//delay 2,5 second
 			cout << "pesanan No." << i << " (evennumber)" << endl;
 			cout << "waktu delay 2.5 seconds" << endl << endl;
-			delay(2500);//delay 2,5 second
 		}
 	}
 }
